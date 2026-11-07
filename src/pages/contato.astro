@@ -1,0 +1,120 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout
+  title="Contato — Bicho Feliz | Campina Grande-PB"
+  description="Endereço, horários de atendimento, WhatsApp e Instagram da Clínica Veterinária e Pet Shop Bicho Feliz em Campina Grande-PB."
+  currentPath="/contato"
+>
+  <!-- ====== HERO DA PÁGINA ====== -->
+  <section class="page-hero" aria-label="Contato">
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Localização na página">
+        <a href="/">Início</a>
+        <span aria-hidden="true">›</span>
+        <span aria-current="page">Contato</span>
+      </nav>
+      <h1>Entre em contato</h1>
+      <p>Tire dúvidas, agende consultas ou solicite entrega de produtos pelo WhatsApp da Bicho Feliz.</p>
+    </div>
+  </section>
+
+  <!-- ====== INFORMAÇÕES DE CONTATO ====== -->
+  <section class="section" aria-labelledby="sec-canais">
+    <div class="container">
+      <div class="section-title">
+        <h2 id="sec-canais">Canais de atendimento</h2>
+        <p>Estamos disponíveis nos canais abaixo durante o horário de funcionamento.</p>
+        <div class="accent-line" aria-hidden="true"></div>
+      </div>
+      <div class="grid-3">
+        <div class="card text-center" style="padding:var(--space-8);">
+          <div style="font-size:3rem; margin-bottom:var(--space-4);">📱</div>
+          <h3>WhatsApp</h3>
+          <p style="margin:var(--space-2) 0 var(--space-4); font-weight:600; color:var(--color-primary);">(83) 99999-1234</p>
+          <p style="font-size:0.875rem; margin-bottom:var(--space-6);">Canal oficial para dúvidas, agendamentos e entrega.</p>
+          <a href="https://wa.me/5583999991234?text=Olá!%20Acessei%20o%20site%20da%20Bicho%20Feliz%20e%20gostaria%20de%20obter%20informações." target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm">
+            Iniciar conversa
+          </a>
+        </div>
+        <div class="card text-center" style="padding:var(--space-8);">
+          <div style="font-size:3rem; margin-bottom:var(--space-4);">📸</div>
+          <h3>Instagram</h3>
+          <p style="margin:var(--space-2) 0 var(--space-4); font-weight:600; color:var(--color-primary);">@bichofeliz.pet</p>
+          <p style="font-size:0.875rem; margin-bottom:var(--space-6);">Acompanhe nossas novidades e publicações.</p>
+          <a href="https://www.instagram.com/bichofeliz.pet/" target="_blank" rel="noopener" class="btn btn-outline btn-sm">
+            Seguir perfil
+          </a>
+        </div>
+        <div class="card text-center" style="padding:var(--space-8);">
+          <div style="font-size:3rem; margin-bottom:var(--space-4);">📍</div>
+          <h3>Endereço</h3>
+          <p style="margin:var(--space-2) 0; font-size:0.9rem;">
+            Rua das Acácias, 245<br>Centro, Campina Grande - PB<br>CEP 58400-120
+          </p>
+          <p style="font-size:0.75rem; color:var(--color-text-muted); margin-top:var(--space-2); font-style:italic;">(Dados fictícios para demonstração)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== LOCALIZAÇÃO NO MAPA ====== -->
+  <section class="section section-alt" aria-labelledby="sec-localizacao">
+    <div class="container">
+      <div class="section-title">
+        <h2 id="sec-localizacao">Como chegar</h2>
+        <p>Localização fictícia para fins de demonstração no Centro de Campina Grande - PB.</p>
+        <div class="accent-line" aria-hidden="true"></div>
+      </div>
+      <div style="max-width:800px; margin:0 auto; background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-xl); padding:var(--space-10); text-align:center;">
+        <div style="font-size:4rem; margin-bottom:var(--space-4);">🗺️</div>
+        <h3 style="margin-bottom:var(--space-2);">Rua das Acácias, 245, Centro</h3>
+        <p style="margin-bottom:var(--space-6); color:var(--color-text-muted);">Campina Grande - PB • CEP 58400-120</p>
+        <a href="https://www.google.com/maps/search/Rua+das+Acácias,+245,+Centro,+Campina+Grande,+PB" target="_blank" rel="noopener" class="btn btn-primary">
+          Abrir no Google Maps
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== HORÁRIOS ====== -->
+  <section class="section" aria-labelledby="sec-horarios-contato">
+    <div class="container">
+      <div style="display:grid; gap:var(--space-10); align-items:start;" class="hours-layout">
+        <div>
+          <div class="section-title" style="text-align:left; margin-bottom:var(--space-6);">
+            <h2 id="sec-horarios-contato">Horários de funcionamento</h2>
+            <div class="accent-line" style="margin-left:0;"></div>
+          </div>
+          <div class="hours-table">
+            <div class="hours-row">
+              <span class="day">Segunda a Sexta</span>
+              <span class="time">08:00 às 18:00</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Sábado</span>
+              <span class="time">08:00 às 13:00</span>
+            </div>
+            <div class="hours-row closed">
+              <span class="day">Domingo</span>
+              <span class="time">Fechado</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="emergency-notice" style="border-radius:var(--radius-lg); border:1px solid var(--color-alert-border);">
+            <span class="notice-icon" aria-hidden="true">⚠️</span>
+            <p><strong>Atenção sobre atendimentos:</strong> Não oferecemos atendimento veterinário emergencial 24 horas e não abrimos aos domingos. Em situações emergenciais fora do horário, procure um serviço 24h disponível na sua região.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  @media (min-width:768px) {
+    .hours-layout { grid-template-columns: 1fr 1fr; }
+  }
+</style>

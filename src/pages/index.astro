@@ -1,0 +1,185 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Bicho Feliz — Clínica Veterinária e Pet Shop em Campina Grande-PB" currentPath="/">
+  <!-- ====== HERO ====== -->
+  <section class="hero" aria-label="Apresentação">
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">🐾 Campina Grande - PB</div>
+        <h1>Cuidados veterinários e produtos para o seu pet</h1>
+        <p>Na Bicho Feliz, você encontra atendimento veterinário, banho e tosa, além de rações, petiscos e acessórios para cães e gatos em um só lugar.</p>
+        <div class="hero-ctas">
+          <a href="https://wa.me/5583999991234" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+            Fale pelo WhatsApp
+          </a>
+          <a href="/clinica-veterinaria" class="btn-cta-outline">Conheça nossos serviços</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== TRÊS PILARES ====== -->
+  <section class="section" aria-labelledby="sec-pilares">
+    <div class="container">
+      <div class="section-title">
+        <h2 id="sec-pilares">Diferentes serviços em um só lugar</h2>
+        <p>Conheça as áreas de atendimento e os produtos disponíveis na Clínica Veterinária e Pet Shop Bicho Feliz.</p>
+        <div class="accent-line" aria-hidden="true"></div>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🏥</div>
+          <h3>Clínica Veterinária</h3>
+          <p>Consultas veterinárias, cirurgias e exames laboratoriais para a saúde do seu animal.</p>
+          <a href="/clinica-veterinaria" class="btn btn-outline mt-6">Conheça os serviços</a>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🛁</div>
+          <h3>Banho e Tosa</h3>
+          <p>Serviços de higiene e estética animal para manter o seu pet sempre limpo e saudável.</p>
+          <a href="/banho-e-tosa" class="btn btn-outline mt-6">Consulte disponibilidade</a>
+        </article>
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">🛍️</div>
+          <h3>Pet Shop</h3>
+          <p>Rações, petiscos e acessórios para o dia a dia do seu pet, com entrega sob consulta.</p>
+          <a href="/pet-shop" class="btn btn-outline mt-6">Ver produtos</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CLÍNICA DESTAQUE ====== -->
+  <section class="section section-alt" aria-labelledby="sec-clinica">
+    <div class="container">
+      <div style="display:grid; gap:var(--space-10); align-items:center;" class="two-col">
+        <div>
+          <div class="section-title" style="text-align:left; margin-bottom:var(--space-6);">
+            <h2 id="sec-clinica">Atendimento veterinário</h2>
+            <div class="accent-line" style="margin-left:0;"></div>
+          </div>
+          <p style="margin-bottom:var(--space-6);">A clínica oferece atendimento veterinário com consultas clínicas, cirurgias e exames laboratoriais para cuidar da saúde dos seus animais.</p>
+          <div style="display:flex; flex-direction:column; gap:var(--space-3); margin-bottom:var(--space-8);">
+            <div style="display:flex; align-items:center; gap:var(--space-3);">
+              <span style="color:var(--color-primary); font-size:1.25rem;">✔</span>
+              <span style="font-weight:600;">Consultas veterinárias</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:var(--space-3);">
+              <span style="color:var(--color-primary); font-size:1.25rem;">✔</span>
+              <span style="font-weight:600;">Cirurgias veterinárias</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:var(--space-3);">
+              <span style="color:var(--color-primary); font-size:1.25rem;">✔</span>
+              <span style="font-weight:600;">Exames laboratoriais</span>
+            </div>
+          </div>
+          <a href="/clinica-veterinaria" class="btn btn-primary">Saiba mais sobre a clínica</a>
+        </div>
+        <div style="background:linear-gradient(135deg,var(--color-primary-soft),var(--color-bg-alt)); border-radius:var(--radius-xl); padding:var(--space-12); text-align:center; border:1px solid var(--color-border);">
+          <div style="font-size:5rem; margin-bottom:var(--space-4);">🩺</div>
+          <p style="font-weight:700; color:var(--color-primary); font-family:var(--font-display);">Dra. Mariana Oliveira</p>
+          <p style="font-size:0.875rem; margin-top:var(--space-2);">Responsável técnica veterinária</p>
+          <p style="font-size:0.75rem; color:var(--color-text-muted); margin-top:var(--space-2); font-style:italic;">(Dados fictícios para demonstração)</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PET SHOP DESTAQUE ====== -->
+  <section class="section" aria-labelledby="sec-petshop">
+    <div class="container">
+      <div class="section-title">
+        <h2 id="sec-petshop">Produtos para o dia a dia do seu pet</h2>
+        <p>Encontre rações, petiscos e acessórios. Consulte entrega pelo WhatsApp.</p>
+        <div class="accent-line" aria-hidden="true"></div>
+      </div>
+      <div class="grid-4">
+        <div class="card text-center">
+          <div style="font-size:2.5rem; margin-bottom:var(--space-4); text-align:center;">🥩</div>
+          <h3 style="text-align:center; font-size:1.1rem;">Rações</h3>
+          <p style="text-align:center; font-size:0.875rem;">Para cães e gatos de todas as fases.</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size:2.5rem; margin-bottom:var(--space-4); text-align:center;">🦴</div>
+          <h3 style="text-align:center; font-size:1.1rem;">Petiscos</h3>
+          <p style="text-align:center; font-size:0.875rem;">Opções variadas para recompensar o seu pet.</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size:2.5rem; margin-bottom:var(--space-4); text-align:center;">🎾</div>
+          <h3 style="text-align:center; font-size:1.1rem;">Acessórios</h3>
+          <p style="text-align:center; font-size:0.875rem;">Coleiras, guias, brinquedos e muito mais.</p>
+        </div>
+        <div class="card text-center">
+          <div style="font-size:2.5rem; margin-bottom:var(--space-4); text-align:center;">🛵</div>
+          <h3 style="text-align:center; font-size:1.1rem;">Entrega</h3>
+          <p style="text-align:center; font-size:0.875rem;">Consulte disponibilidade e condições pelo WhatsApp.</p>
+        </div>
+      </div>
+      <div class="text-center mt-8">
+        <a href="/pet-shop" class="btn btn-primary">Consulte nossos produtos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== HORÁRIOS ====== -->
+  <section class="section section-alt" aria-labelledby="sec-horarios">
+    <div class="container">
+      <div style="display:grid; gap:var(--space-10); align-items:start;" class="hours-layout">
+        <div>
+          <div class="section-title" style="text-align:left; margin-bottom:var(--space-6);">
+            <h2 id="sec-horarios">Horários de atendimento</h2>
+            <div class="accent-line" style="margin-left:0;"></div>
+          </div>
+          <div class="hours-table">
+            <div class="hours-row">
+              <span class="day">Segunda a Sexta</span>
+              <span class="time">08:00 às 18:00</span>
+            </div>
+            <div class="hours-row">
+              <span class="day">Sábado</span>
+              <span class="time">08:00 às 13:00</span>
+            </div>
+            <div class="hours-row closed">
+              <span class="day">Domingo</span>
+              <span class="time">Fechado</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="emergency-notice" style="border-radius:var(--radius-lg); border:1px solid var(--color-alert-border);">
+            <span class="notice-icon" aria-hidden="true">⚠️</span>
+            <p><strong>Sem emergência 24 horas.</strong> Não possuímos atendimento veterinário emergencial fora do horário de funcionamento. Procure um serviço de emergência 24h disponível na sua região.</p>
+          </div>
+          <div class="mt-6">
+            <a href="/contato" class="btn btn-primary">Ver todas as informações de contato</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CTA SECTION ====== -->
+  <section class="cta-section" aria-labelledby="cta-home">
+    <div class="container">
+      <h2 id="cta-home">Precisa de atendimento para o seu pet?</h2>
+      <p>Entre em contato pelo WhatsApp para tirar dúvidas sobre consultas, serviços e produtos disponíveis na Bicho Feliz.</p>
+      <div class="cta-buttons">
+        <a href="https://wa.me/5583999991234?text=Olá!%20Acessei%20o%20site%20da%20Bicho%20Feliz%20e%20gostaria%20de%20obter%20informações." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+          Fale pelo WhatsApp
+        </a>
+        <a href="/contato" class="btn-cta-outline">📍 Como chegar</a>
+      </div>
+    </div>
+  </section>
+</Layout>
+
+<style>
+  @media (min-width:768px) {
+    .two-col { grid-template-columns: 1fr 1fr; }
+    .hours-layout { grid-template-columns: 1fr 1fr; }
+  }
+</style>

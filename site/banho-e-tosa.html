@@ -1,0 +1,284 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Banho e Tosa na Bicho Feliz — Serviços de higiene e estética animal em Campina Grande-PB. Consulte disponibilidade pelo WhatsApp. Dados fictícios para demonstração." />
+  <title>Banho e Tosa — Bicho Feliz | Campina Grande-PB</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐾</text></svg>" />
+</head>
+<body>
+
+<!-- ====== HEADER ====== -->
+<header class="header">
+  <div class="container">
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <div class="logo-icon" aria-hidden="true">🐾</div>
+        <div class="logo-text">
+          Bicho Feliz
+          <span>Clínica Vet. e Pet Shop</span>
+        </div>
+      </a>
+      <nav class="nav" aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="clinica-veterinaria.html">Clínica Veterinária</a>
+        <a href="banho-e-tosa.html" class="active">Banho e Tosa</a>
+        <a href="pet-shop.html">Pet Shop</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <a href="https://wa.me/5583999991234" target="_blank" rel="noopener" class="btn btn-whatsapp btn-sm btn-header-wa" aria-label="Contato via WhatsApp">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+          WhatsApp
+        </a>
+        <button id="btn-hamburger" class="btn-hamburger" aria-label="Abrir menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Mobile Menu -->
+<div id="mobile-menu" class="mobile-menu" role="dialog" aria-modal="true" aria-label="Menu de navegação">
+  <div class="mobile-menu-panel">
+    <div class="mobile-menu-header">
+      <div class="logo">
+        <div class="logo-icon" aria-hidden="true">🐾</div>
+        <div class="logo-text">Bicho Feliz <span>Clínica Vet. e Pet Shop</span></div>
+      </div>
+      <button id="btn-close-menu" class="btn-close-menu" aria-label="Fechar menu">✕</button>
+    </div>
+    <nav class="mobile-menu-nav" aria-label="Menu móvel">
+      <a href="index.html">🏠 Início</a>
+      <a href="clinica-veterinaria.html">🏥 Clínica Veterinária</a>
+      <a href="banho-e-tosa.html">🛁 Banho e Tosa</a>
+      <a href="pet-shop.html">🛍️ Pet Shop</a>
+      <a href="contato.html">📍 Contato</a>
+    </nav>
+    <div class="mobile-menu-footer">
+      <a href="https://wa.me/5583999991234" target="_blank" rel="noopener" class="btn btn-whatsapp">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+        Fale pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<!-- ====== AVISO DE EMERGÊNCIA ====== -->
+<div class="emergency-notice" role="alert">
+  <span class="notice-icon" aria-hidden="true">⚠️</span>
+  <p><strong>Atenção:</strong> Não oferecemos atendimento veterinário emergencial 24 horas e não abrimos aos domingos. Horário: Seg–Sex 08h às 18h | Sáb 08h às 13h.</p>
+</div>
+
+<!-- ====== HERO DA PÁGINA ====== -->
+<section class="page-hero" aria-label="Banho e Tosa">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Localização na página">
+      <a href="index.html">Início</a>
+      <span aria-hidden="true">›</span>
+      <span aria-current="page">Banho e Tosa</span>
+    </nav>
+    <h1>Banho e tosa para o seu pet</h1>
+    <p>Serviços de higiene e estética animal para manter o seu pet sempre limpo, saudável e bem cuidado.</p>
+    <a href="https://wa.me/5583999991234?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade%20para%20banho%20e%20tosa%20na%20Bicho%20Feliz." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+      <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+      Consultar disponibilidade
+    </a>
+  </div>
+</section>
+
+<!-- ====== SERVIÇOS DE ESTÉTICA ====== -->
+<section class="section" aria-labelledby="sec-estetica">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="sec-estetica">Serviços de estética animal</h2>
+      <p>Higiene e cuidados estéticos para cães e gatos. Consulte disponibilidade pelo WhatsApp.</p>
+      <div class="accent-line" aria-hidden="true"></div>
+    </div>
+    <div style="display:grid; gap:var(--space-6); max-width:700px; margin:0 auto;" class="two-col-cards">
+      <article class="card" style="text-align:center; padding:var(--space-10);">
+        <div style="font-size:3rem; margin-bottom:var(--space-4);">🛁</div>
+        <h3>Banho</h3>
+        <p>Serviço de banho para cães e gatos com produtos adequados para cada tipo de pelagem. Consulte disponibilidade para o seu pet.</p>
+        <a href="https://wa.me/5583999991234?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade%20para%20banho%20na%20Bicho%20Feliz." target="_blank" rel="noopener" class="btn btn-outline mt-6">Consultar disponibilidade</a>
+      </article>
+      <article class="card" style="text-align:center; padding:var(--space-10);">
+        <div style="font-size:3rem; margin-bottom:var(--space-4);">✂️</div>
+        <h3>Tosa</h3>
+        <p>Serviço de tosa para manter o visual e o conforto do seu pet. Consulte disponibilidade e estilos para o seu animal.</p>
+        <a href="https://wa.me/5583999991234?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade%20para%20tosa%20na%20Bicho%20Feliz." target="_blank" rel="noopener" class="btn btn-outline mt-6">Consultar disponibilidade</a>
+      </article>
+    </div>
+  </div>
+</section>
+<style>@media (min-width:600px) { .two-col-cards { grid-template-columns: 1fr 1fr; } }</style>
+
+<!-- ====== GALERIA ====== -->
+<section class="section section-alt" aria-labelledby="sec-galeria-bt">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="sec-galeria-bt">Galeria</h2>
+      <p>Fotos dos nossos atendimentos. Imagens a serem inseridas.</p>
+      <div class="accent-line" aria-hidden="true"></div>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div style="font-size:3rem; margin-bottom:var(--space-3);">🐶</div>
+        <span>Foto a inserir</span>
+      </div>
+      <div class="gallery-item">
+        <div style="font-size:3rem; margin-bottom:var(--space-3);">🐱</div>
+        <span>Foto a inserir</span>
+      </div>
+      <div class="gallery-item">
+        <div style="font-size:3rem; margin-bottom:var(--space-3);">✨</div>
+        <span>Foto a inserir</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== HORÁRIOS ====== -->
+<section class="section" aria-labelledby="sec-horarios-bt">
+  <div class="container">
+    <div style="display:grid; gap:var(--space-10); align-items:start;" class="hours-layout">
+      <div>
+        <div class="section-title" style="text-align:left; margin-bottom:var(--space-6);">
+          <h2 id="sec-horarios-bt">Horários de atendimento</h2>
+          <div class="accent-line" style="margin-left:0;"></div>
+        </div>
+        <div class="hours-table">
+          <div class="hours-row">
+            <span class="day">Segunda a Sexta</span>
+            <span class="time">08:00 às 18:00</span>
+          </div>
+          <div class="hours-row">
+            <span class="day">Sábado</span>
+            <span class="time">08:00 às 13:00</span>
+          </div>
+          <div class="hours-row closed">
+            <span class="day">Domingo</span>
+            <span class="time">Fechado</span>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="emergency-notice" style="border-radius:var(--radius-lg); border:1px solid var(--color-alert-border);">
+          <span class="notice-icon" aria-hidden="true">⚠️</span>
+          <p><strong>Sem emergência 24 horas.</strong> Não possuímos atendimento veterinário emergencial fora do horário de funcionamento. Procure um serviço de emergência 24h disponível na sua região.</p>
+        </div>
+        <div class="mt-6">
+          <a href="contato.html" class="btn btn-primary">Ver informações de contato</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<style>@media (min-width:768px) { .hours-layout { grid-template-columns: 1fr 1fr; } }</style>
+
+<!-- ====== FAQ ====== -->
+<section class="section section-alt" aria-labelledby="sec-faq-bt">
+  <div class="container">
+    <div class="section-title">
+      <h2 id="sec-faq-bt">Perguntas frequentes</h2>
+      <div class="accent-line" aria-hidden="true"></div>
+    </div>
+    <div class="faq-list" style="max-width:720px; margin:0 auto;">
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          A Bicho Feliz oferece banho e tosa?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Sim, oferecemos serviços de banho e tosa para cães e gatos. Entre em contato pelo WhatsApp para verificar disponibilidade.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Como consultar disponibilidade para banho e tosa?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Consulte diretamente pelo WhatsApp <a href="https://wa.me/5583999991234" target="_blank" rel="noopener">(83) 99999-1234</a> durante o horário de atendimento.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question" aria-expanded="false">
+          Quais são os preços do banho e tosa?
+          <span class="faq-icon" aria-hidden="true">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>Os preços variam conforme o porte e a raça do animal. Consulte diretamente pelo WhatsApp para obter os valores atualizados.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ====== CTA SECTION ====== -->
+<section class="cta-section" aria-labelledby="cta-bt">
+  <div class="container">
+    <h2 id="cta-bt">Deixe o seu pet limpo e bonito</h2>
+    <p>Entre em contato pelo WhatsApp para verificar disponibilidade e agendar o banho e tosa do seu animal.</p>
+    <div class="cta-buttons">
+      <a href="https://wa.me/5583999991234?text=Olá!%20Gostaria%20de%20consultar%20disponibilidade%20para%20banho%20e%20tosa%20na%20Bicho%20Feliz." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+        Fale pelo WhatsApp
+      </a>
+      <a href="contato.html" class="btn-cta-outline">📍 Como chegar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo">
+          <div class="logo-icon" aria-hidden="true">🐾</div>
+          <div class="logo-text">Bicho Feliz <span>Clínica Vet. e Pet Shop</span></div>
+        </div>
+        <p>Clínica veterinária, banho e tosa, rações e acessórios para pets em Campina Grande - PB.<br><em style="font-size:0.75rem; opacity:.6;">(Dados fictícios para demonstração)</em></p>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <nav class="footer-links">
+          <a href="index.html">Início</a>
+          <a href="clinica-veterinaria.html">Clínica Veterinária</a>
+          <a href="banho-e-tosa.html">Banho e Tosa</a>
+          <a href="pet-shop.html">Pet Shop</a>
+          <a href="contato.html">Contato</a>
+        </nav>
+      </div>
+      <div class="footer-contact">
+        <h4>Contato</h4>
+        <p>
+          📱 <a href="https://wa.me/5583999991234" target="_blank" rel="noopener">(83) 99999-1234</a><br>
+          📸 <a href="https://www.instagram.com/bichofeliz.pet/" target="_blank" rel="noopener">@bichofeliz.pet</a><br>
+          📍 Rua das Acácias, 245, Centro<br>Campina Grande - PB, CEP 58400-120<br><br>
+          <strong style="color:rgba(255,255,255,0.75);">Horários:</strong><br>
+          Seg–Sex: 08:00 às 18:00<br>
+          Sáb: 08:00 às 13:00<br>
+          Dom: Fechado
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2024 Clínica Veterinária e Pet Shop Bicho Feliz. Dados fictícios para demonstração.</span>
+      <span style="color: rgba(255,255,255,0.3);">Não oferecemos emergência 24 horas.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp Flutuante -->
+<a href="https://wa.me/5583999991234?text=Olá!%20Acessei%20o%20site%20da%20Bicho%20Feliz%20e%20gostaria%20de%20obter%20informações." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Contato pelo WhatsApp">
+  <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true"><path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.816 9.816 0 0012.04 2zm.01 1.67c4.56 0 8.25 3.69 8.25 8.24 0 2.2-.86 4.28-2.42 5.84a8.18 8.18 0 01-5.83 2.41c-1.42 0-2.82-.37-4.06-1.07l-.29-.17-3.02.79.81-2.94-.19-.3a8.163 8.163 0 01-1.29-4.36c0-4.55 3.69-8.24 8.24-8.24zm4.52 11.59c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.06-.39-2.02-1.25-.75-.67-1.25-1.5-1.4-1.75-.14-.25-.02-.39.11-.51.11-.11.25-.29.37-.44.13-.14.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.13-.56-1.34-.76-1.84-.2-.49-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.44 1.02 2.61c.13.17 1.77 2.7 4.28 3.79.6.26 1.07.41 1.43.53.6.19 1.15.16 1.58.1.48-.07 1.47-.6 1.68-1.18.21-.58.21-1.08.15-1.18-.06-.1-.23-.17-.48-.29z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>
